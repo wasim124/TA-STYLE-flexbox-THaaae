@@ -22,61 +22,60 @@
                 <img src="assets/media/logo.png" alt="logo" />
             </a>
             <nav class="nav">
-                <img src="assets/media/icons/bell.svg" alt="bell" />
-                <a href="#">Sarah Jone</a>
-                <img src="assets/media/icons/user.svg" alt="user" />
+                <a href="#">
+                    <img src="assets/media/icons/bell.svg" alt="bell" />
+                </a>
+                <a href="#">
+                    <span>Sarah Jone</span>
+                    <img src="assets/media/icons/user.svg" alt="user" />
+                </a>
             </nav>
         </div>
     </header>
-    <main>
-        <section class="section">
-            <div class="container flex">
-                <div class="col1">
-                    <div class="row ">
-                        <img src="assets/media/icons/dashboard.svg" alt="dashboard" />
-                        <p>Dashboard</p>
-                    </div>
-                    <div class="row">
-                        <img src="assets/media/icons/article.svg" alt="article" />
-                        <p>Article</p>
-                    </div>
-                    <div class="row">
-                        <img src="assets/media/icons/analytics.svg" alt="analytics" />
-                        <p>Analytics</p>
-                    </div>
-                    <div class="row">
-                        <img src="assets/media/icons/inbox.svg" alt="inbox" />
-                        <p>Inbox</p>
-                    </div>
-                    <div class="row">
-                        <img src="assets/media/icons/setting.svg" alt="setting" />
-                        <p>Setting</p>
-                    </div>
-                    <div class="row">
-                        <img src="assets/media/icons/log-out.svg" alt="log-out" />
-                        <p>log out</p>
-                    </div>
-                </div>
-                <div class="col2">
-                    <div class="row1">
-                        <img src="assets/media/01.png" alt="image" />
-                    </div>
-                    <div class="row2">
-                        <h1>Why we are doing AltCampus ?</h1>
-                        <p>
-                            AltCampus is an alternative to college that you wish exited. Currently, we are offfering an
-                            in-house, 6-month long program to ttrain people in quality software development, where they
-                            don't have to pay anything until they are hired.
-                        </p>
-                        <p>
-                            We live in the world of digital skills. These skills are always evolving and so is their
-                            demand. Students/Professionals who are nit responsive to the changes in industry demands,in
-                            terms of skills,will have a hard time surviving,well at least flourising.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <main class="container flex padding">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <a href="#">
+                    <img src="assets/media/icons/dashboard.svg" alt="dashboard" />
+                    <span>Dashboard</span>
+                </a>
+                <a class="active" href="#">
+                    <img src="assets/media/icons/article.svg" alt="article" />
+                    <span>Articles</span>
+                </a>
+                <a href="#">
+                    <img src="assets/media/icons/analytics.svg" alt="analytics" />
+                    <span>Analytics</span>
+                </a>
+                <a href="#">
+                    <img src="assets/media/icons/inbox.svg" alt="inbox" />
+                    <span>Inbox</span>
+                </a>
+                <a href="#">
+                    <img src="assets/media/icons/setting.svg" alt="setting" />
+                    <span>Settings</span>
+                </a>
+            </nav>
+            <button class="logout-btn">
+                <img src="assets/media/icons/log-out.svg" alt="log-out" />
+                <span>Log Out</span>
+            </button>
+        </aside>
+        <article class="article">
+            <img src="assets/media/01.png" alt="image" />
+            <h1 class="heading">Why we are doing AltCampus ?</h1>
+            <p class="text">
+                AltCampus is an alternative to college that you wish exited. Currently, we are offfering an
+                in-house, 6-month long program to ttrain people in quality software development, where they
+                don't have to pay anything until they are hired.
+            </p>
+            <p class="text">
+                We live in the world of digital skills. These skills are always evolving and so is their
+                demand. Students/Professionals who are nit responsive to the changes in industry demands,in
+                terms of skills,will have a hard time surviving,well at least flourising.
+            </p>
+            <a class="btn" href="#">Read More</a>
+        </article>
     </main>
     <footer class="footer">
         <div class="container flex">
